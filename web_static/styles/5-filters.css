@@ -1,0 +1,55 @@
+.filters {
+    height: 70px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+button {
+    font-size: 18px;
+    background: #ff5a5f;
+    color: #fff;
+    height: 48px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    margin-right: 30px;
+}
+
+button:hover {
+    opacity: 90%;
+}
+
+.locations, .amenities {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 25%;
+	justify-content: center;
+}
+.amenities {
+	flex: 1;
+}
+
+.locations {
+	border-right: 1px solid #DDDDDD;
+
+}
+
+
+.filters h3 {
+	font-size: 1.17em;
+	font-weight: 600;
+	padding: 0 0 0 30px;
+	margin: 0;
+}
+
+.filters h4 {
+	font-size: 14px;
+	font-weight: 400;
+	padding: 0 0 0 30px;
+	margin: 0;
+}
