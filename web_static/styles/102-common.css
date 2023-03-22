@@ -1,22 +1,13 @@
-/* Body Style */
 body {
-    color: #484848;
-    font: 14px Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  }
-  
-  /* Block Horizontal Scrolling */
-  html, body {
-    width: 100%;
-    overflow-x: hidden;
-  }
-  
-  /* Container Style */
-  .container {
-    margin: 30px auto;
+	margin:0px;
+	padding:0px;
+
+	color: #484848;
+	font-size: 14px;
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container {
     max-width: 1000px;
-  }
-  
-  /* Strong Style */
-  strong {
-    font-weight: bold;
-  }
+    margin: 30px auto;
+}
